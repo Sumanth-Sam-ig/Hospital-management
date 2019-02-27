@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .mg{
+
+            position:absolute;
+            top:40%;
+            padding: 10px;
+            margin: 10px;
+            left:35%;
+            height:200px;
+            opacity: 0.9;
+            font-size:20px;
+            width:400px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color:rgba(95, 150, 204, 0.9);
+        }
+        .bg{
+
+                padding:5px;
+                margin:5px;
+                background-color: rgb(60,100,160);
+                position:relative;
+                left:40%;
+                font-size: 20px;
+                font-family:  Arial, sans-serif;
+                color:azure;
+
+
+        }
+        p{
+            background-color:rgb(200,200,200);
+
+        }
+    
+    </style>
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("#test").fadeOut()
+    });
+    
+});
+</script>
+</head>
+<body>
+
+<div id="test" class="mg">
+ <p align="center"> Not a User <br> Register or Check user name </p>
+
+<button id="btn1" class="bg" > Try again </button>
+</div>
+</body>
+</html>
